@@ -12,6 +12,7 @@ import {
 } from 'lucide-react';
 import { useAppDirectory } from '../context/AppContext';
 import { CATEGORIES } from '../data/defaultApps';
+import { SMARTLINK_URL } from './AdSlot';
 
 export const Navbar: React.FC = () => {
   const { 
@@ -99,6 +100,17 @@ export const Navbar: React.FC = () => {
 
           {/* Right Action buttons */}
           <div className="flex items-center gap-2">
+            {/* Sponsored Smartlink Deals */}
+            <a
+              href={SMARTLINK_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden lg:flex items-center gap-1.5 px-3 py-2 text-xs font-bold text-amber-900 bg-amber-50 hover:bg-amber-100 border border-amber-200/90 rounded-xl transition-all shadow-xs"
+              title="Special Deals & Exclusive Offers"
+            >
+              <span>🔥 Deals</span>
+            </a>
+
             {/* Quick Background Remover Tool */}
             <button
               onClick={() => setIsBgRemoverOpen(true)}

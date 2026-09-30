@@ -79,13 +79,13 @@ export const OfficialApkSection: React.FC = () => {
             
             {/* Small Compact Logo */}
             <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl overflow-hidden bg-indigo-950 border border-indigo-400/30 p-0.5 flex-shrink-0 shadow-sm relative">
-              <div className="w-full h-full rounded-lg overflow-hidden bg-slate-800 flex items-center justify-center">
+              <div className="w-full h-full rounded-lg overflow-hidden bg-slate-800 p-1 flex items-center justify-center">
                 {officialApk.logoUrl && !logoError ? (
                   <img
                     src={officialApk.logoUrl}
                     alt={officialApk.appName}
                     onError={() => setLogoError(true)}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                 ) : (
                   <Smartphone className="w-6 h-6 text-emerald-400" />

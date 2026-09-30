@@ -89,7 +89,7 @@ export const DEFAULT_APPS: AppItem[] = [
       'Custom GPTs and custom instructions integration'
     ],
     category: 'ai-tools',
-    logoUrl: 'https://images.unsplash.com/photo-1677442136019-21780efad99a?w=160&auto=format&fit=crop&q=80',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg',
     websiteUrl: 'https://chatgpt.com',
     downloadUrl: 'https://play.google.com/store/apps/details?id=com.openai.chatgpt',
     platforms: ['Web', 'Android', 'iOS', 'Windows', 'macOS'],
@@ -115,7 +115,7 @@ export const DEFAULT_APPS: AppItem[] = [
       'Enterprise-grade security and ethical guardrails'
     ],
     category: 'ai-tools',
-    logoUrl: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=160&auto=format&fit=crop&q=80',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/e0/Claude_AI_logo.svg',
     websiteUrl: 'https://claude.ai',
     downloadUrl: 'https://play.google.com/store/apps/details?id=com.anthropic.claude',
     platforms: ['Web', 'Android', 'iOS', 'macOS'],
@@ -130,32 +130,6 @@ export const DEFAULT_APPS: AppItem[] = [
     tags: ['AI', 'Anthropic', 'Coding', 'Writing', 'Research']
   },
   {
-    id: 'moviebox',
-    name: 'MovieBox',
-    tagline: 'Popular movie & TV show discovery, official HD trailers, reviews & release guide',
-    description: 'MovieBox is a popular entertainment application and media tracker for discovering movies, watching HD trailers, reading synopses, checking ratings, and finding official streaming providers.',
-    features: [
-      'HD movie trailers, reviews, and IMDb/Rotten Tomatoes ratings',
-      'Personalized watchlists, recommendations, and genre discovery',
-      'Direct links to official streaming platforms and release calendars',
-      'Clean intuitive interface for mobile, tablet, and smart TVs'
-    ],
-    category: 'entertainment',
-    logoUrl: 'https://images.unsplash.com/photo-1536440136628-849c177e76a1?w=160&auto=format&fit=crop&q=80',
-    websiteUrl: 'https://moviebox.online',
-    downloadUrl: 'https://play.google.com/store/search?q=moviebox&c=apps',
-    platforms: ['Web', 'Android', 'iOS', 'Windows', 'macOS'],
-    pricing: 'Freemium',
-    developer: 'MovieBox Studio',
-    rating: 4.8,
-    reviewCount: 28500,
-    isPopular: true,
-    isTrending: true,
-    isLatest: true,
-    createdAt: '2024-05-20',
-    tags: ['MovieBox', 'Movies', 'TV Shows', 'Streaming', 'Trailers', 'Entertainment']
-  },
-  {
     id: 'midjourney',
     name: 'Midjourney',
     tagline: 'Photorealistic and stylized generative AI art generation',
@@ -167,7 +141,7 @@ export const DEFAULT_APPS: AppItem[] = [
       'High-resolution upscaling and parameter controls'
     ],
     category: 'ai-tools',
-    logoUrl: 'https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=160&auto=format&fit=crop&q=80',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/e6/Midjourney_Emblem.png',
     websiteUrl: 'https://www.midjourney.com',
     platforms: ['Web'],
     pricing: 'Paid',
@@ -192,7 +166,7 @@ export const DEFAULT_APPS: AppItem[] = [
       'Collections and shareable research pages'
     ],
     category: 'ai-tools',
-    logoUrl: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=160&auto=format&fit=crop&q=80',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/1/1a/Perplexity_AI_logo.svg',
     websiteUrl: 'https://www.perplexity.ai',
     downloadUrl: 'https://play.google.com/store/apps/details?id=ai.perplexity.app.android',
     platforms: ['Web', 'Android', 'iOS'],
@@ -220,7 +194,7 @@ export const DEFAULT_APPS: AppItem[] = [
       'AI background remover and body effects'
     ],
     category: 'video-editing',
-    logoUrl: 'https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=160&auto=format&fit=crop&q=80',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Capcut-logo.svg/512px-Capcut-logo.svg.png',
     websiteUrl: 'https://www.capcut.com',
     downloadUrl: 'https://play.google.com/store/apps/details?id=com.lemon.lvoverseas',
     platforms: ['Web', 'Android', 'iOS', 'Windows', 'macOS'],
@@ -246,7 +220,7 @@ export const DEFAULT_APPS: AppItem[] = [
       'Multi-user collaboration on a single timeline'
     ],
     category: 'video-editing',
-    logoUrl: 'https://images.unsplash.com/photo-1536240478700-b869070f9279?w=160&auto=format&fit=crop&q=80',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/4/4d/DaVinci_Resolve_Studio.png',
     websiteUrl: 'https://www.blackmagicdesign.com/products/davinciresolve',
     platforms: ['Windows', 'macOS', 'Linux'],
     pricing: 'Freemium',
@@ -271,7 +245,7 @@ export const DEFAULT_APPS: AppItem[] = [
       'Auto-captions and speaker recognition'
     ],
     category: 'video-editing',
-    logoUrl: 'https://images.unsplash.com/photo-1518173946687-a4c8a383392e?w=160&auto=format&fit=crop&q=80',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/5/52/Microsoft_Clipchamp_Fluent_Icon.svg',
     websiteUrl: 'https://clipchamp.com',
     downloadUrl: 'https://apps.microsoft.com/detail/9p1j8s7ccx70',
     platforms: ['Web', 'Windows', 'iOS'],
@@ -299,7 +273,7 @@ export const DEFAULT_APPS: AppItem[] = [
       'Instant export in PNG, PDF, MP4, and SVG formats'
     ],
     category: 'photo-editing',
-    logoUrl: 'https://images.unsplash.com/photo-1626785774573-4b799315345d?w=160&auto=format&fit=crop&q=80',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/0/08/Canva_icon_2021.svg',
     websiteUrl: 'https://www.canva.com',
     downloadUrl: 'https://play.google.com/store/apps/details?id=com.canva.editor',
     platforms: ['Web', 'Android', 'iOS', 'Windows', 'macOS'],
@@ -325,7 +299,7 @@ export const DEFAULT_APPS: AppItem[] = [
       'Free with no watermarks or forced exports'
     ],
     category: 'photo-editing',
-    logoUrl: 'https://images.unsplash.com/photo-1542744094-24638eff58bb?w=160&auto=format&fit=crop&q=80',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d7/Photopea_logo.svg',
     websiteUrl: 'https://www.photopea.com',
     platforms: ['Web'],
     pricing: 'Free',
@@ -350,7 +324,7 @@ export const DEFAULT_APPS: AppItem[] = [
       'Double exposure, glamour glow, and vintage textures'
     ],
     category: 'photo-editing',
-    logoUrl: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=160&auto=format&fit=crop&q=80',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/a/af/Snapseed_logo.png',
     websiteUrl: 'https://play.google.com/store/apps/details?id=com.niksoftware.snapseed',
     downloadUrl: 'https://play.google.com/store/apps/details?id=com.niksoftware.snapseed',
     platforms: ['Android', 'iOS'],
@@ -378,7 +352,7 @@ export const DEFAULT_APPS: AppItem[] = [
       'Voice messaging with variable playback speeds'
     ],
     category: 'android-apps',
-    logoUrl: 'https://images.unsplash.com/photo-1614680376593-902f749f7ffc?w=160&auto=format&fit=crop&q=80',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg',
     websiteUrl: 'https://www.whatsapp.com',
     downloadUrl: 'https://play.google.com/store/apps/details?id=com.whatsapp',
     platforms: ['Android', 'iOS', 'Web', 'Windows', 'macOS'],
@@ -404,7 +378,7 @@ export const DEFAULT_APPS: AppItem[] = [
       'Custom stickers, emojis, and powerful bot ecosystem'
     ],
     category: 'android-apps',
-    logoUrl: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=160&auto=format&fit=crop&q=80',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg',
     websiteUrl: 'https://telegram.org',
     downloadUrl: 'https://play.google.com/store/apps/details?id=org.telegram.messenger',
     platforms: ['Android', 'iOS', 'Web', 'Windows', 'macOS', 'Linux'],
@@ -430,7 +404,7 @@ export const DEFAULT_APPS: AppItem[] = [
       'No ads, no spyware, no in-app purchases'
     ],
     category: 'android-apps',
-    logoUrl: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=160&auto=format&fit=crop&q=80',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/e6/VLC_Icon.svg',
     websiteUrl: 'https://www.videolan.org/vlc/download-android.html',
     downloadUrl: 'https://play.google.com/store/apps/details?id=org.videolan.vlc',
     platforms: ['Android', 'iOS', 'Windows', 'macOS', 'Linux'],
@@ -458,7 +432,7 @@ export const DEFAULT_APPS: AppItem[] = [
       'Real-time team collaboration with granular permissions'
     ],
     category: 'productivity',
-    logoUrl: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=160&auto=format&fit=crop&q=80',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/e/e9/Notion-logo.svg',
     websiteUrl: 'https://www.notion.so',
     downloadUrl: 'https://play.google.com/store/apps/details?id=notion.id',
     platforms: ['Web', 'Android', 'iOS', 'Windows', 'macOS'],
@@ -484,7 +458,7 @@ export const DEFAULT_APPS: AppItem[] = [
       'Canvas visual board for brainstorming ideas'
     ],
     category: 'productivity',
-    logoUrl: 'https://images.unsplash.com/photo-1517842645767-c639042777db?w=160&auto=format&fit=crop&q=80',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/1/10/Obsidian_logo_%282023%29.svg',
     websiteUrl: 'https://obsidian.md',
     downloadUrl: 'https://play.google.com/store/apps/details?id=md.obsidian',
     platforms: ['Web', 'Android', 'iOS', 'Windows', 'macOS', 'Linux'],
@@ -510,7 +484,7 @@ export const DEFAULT_APPS: AppItem[] = [
       'Productivity karma streaks and progress tracking'
     ],
     category: 'productivity',
-    logoUrl: 'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=160&auto=format&fit=crop&q=80',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/6/6e/Todoist_logo.svg',
     websiteUrl: 'https://todoist.com',
     downloadUrl: 'https://play.google.com/store/apps/details?id=com.todoist',
     platforms: ['Web', 'Android', 'iOS', 'Windows', 'macOS'],
@@ -527,6 +501,32 @@ export const DEFAULT_APPS: AppItem[] = [
 
   // --- ENTERTAINMENT ---
   {
+    id: 'moviebox',
+    name: 'MovieBox',
+    tagline: 'Popular movie & TV show discovery, official HD trailers, reviews & release guide',
+    description: 'MovieBox is a popular entertainment application and media tracker for discovering movies, watching HD trailers, reading synopses, checking ratings, and finding official streaming providers.',
+    features: [
+      'HD movie trailers, reviews, and IMDb/Rotten Tomatoes ratings',
+      'Personalized watchlists, recommendations, and genre discovery',
+      'Direct links to official streaming platforms and release calendars',
+      'Clean intuitive interface for mobile, tablet, and smart TVs'
+    ],
+    category: 'entertainment',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/7/77/Film_reel_icon.svg',
+    websiteUrl: 'https://moviebox.online',
+    downloadUrl: 'https://play.google.com/store/search?q=moviebox&c=apps',
+    platforms: ['Web', 'Android', 'iOS', 'Windows', 'macOS'],
+    pricing: 'Freemium',
+    developer: 'MovieBox Studio',
+    rating: 4.8,
+    reviewCount: 28500,
+    isPopular: true,
+    isTrending: true,
+    isLatest: true,
+    createdAt: '2024-05-20',
+    tags: ['MovieBox', 'Movies', 'TV Shows', 'Streaming', 'Trailers', 'Entertainment']
+  },
+  {
     id: 'spotify',
     name: 'Spotify',
     tagline: 'Stream millions of songs, personalized daily mixes, and top podcasts',
@@ -538,7 +538,7 @@ export const DEFAULT_APPS: AppItem[] = [
       'Spotify Connect across speakers, smart TVs, and consoles'
     ],
     category: 'entertainment',
-    logoUrl: 'https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=160&auto=format&fit=crop&q=80',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg',
     websiteUrl: 'https://www.spotify.com',
     downloadUrl: 'https://play.google.com/store/apps/details?id=com.spotify.music',
     platforms: ['Web', 'Android', 'iOS', 'Windows', 'macOS'],
@@ -564,7 +564,7 @@ export const DEFAULT_APPS: AppItem[] = [
       'Up next queue and cloud listening history'
     ],
     category: 'entertainment',
-    logoUrl: 'https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=160&auto=format&fit=crop&q=80',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/a/aa/Pocket_Casts_logo.svg',
     websiteUrl: 'https://pocketcasts.com',
     downloadUrl: 'https://play.google.com/store/apps/details?id=au.com.shiftyjelly.pocketcasts',
     platforms: ['Web', 'Android', 'iOS', 'Windows', 'macOS'],
@@ -592,7 +592,7 @@ export const DEFAULT_APPS: AppItem[] = [
       'Custom server emojis, stickers, and sound effects'
     ],
     category: 'social-media',
-    logoUrl: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=160&auto=format&fit=crop&q=80',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/6/6b/Font_Awesome_5_brands_discord_color.svg',
     websiteUrl: 'https://discord.com',
     downloadUrl: 'https://play.google.com/store/apps/details?id=com.discord',
     platforms: ['Web', 'Android', 'iOS', 'Windows', 'macOS', 'Linux'],
@@ -618,7 +618,7 @@ export const DEFAULT_APPS: AppItem[] = [
       'Custom feeds and saved post collections'
     ],
     category: 'social-media',
-    logoUrl: 'https://images.unsplash.com/photo-1543269865-cbf427effbad?w=160&auto=format&fit=crop&q=80',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/b/b4/Reddit_logo.svg',
     websiteUrl: 'https://www.reddit.com',
     downloadUrl: 'https://play.google.com/store/apps/details?id=com.reddit.frontpage',
     platforms: ['Web', 'Android', 'iOS'],
@@ -646,7 +646,7 @@ export const DEFAULT_APPS: AppItem[] = [
       'Developer API available for automated workflows'
     ],
     category: 'other-tools',
-    logoUrl: 'https://images.unsplash.com/photo-1544717305-2782549b5136?w=160&auto=format&fit=crop&q=80',
+    logoUrl: 'https://tinypng.com/images/panda-chewing.png',
     websiteUrl: 'https://tinypng.com',
     platforms: ['Web'],
     pricing: 'Freemium',
@@ -671,7 +671,7 @@ export const DEFAULT_APPS: AppItem[] = [
       'Photoshop plugin and API integration'
     ],
     category: 'other-tools',
-    logoUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=160&auto=format&fit=crop&q=80',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/b/b5/Remove.bg_logo.svg',
     websiteUrl: 'https://www.remove.bg',
     downloadUrl: 'https://play.google.com/store/apps/details?id=bg.remove.android',
     platforms: ['Web', 'Android', 'Windows', 'macOS'],
@@ -697,7 +697,7 @@ export const DEFAULT_APPS: AppItem[] = [
       'Shadows, lighting adjustments, and retouching'
     ],
     category: 'photo-editing',
-    logoUrl: 'https://images.unsplash.com/photo-1542744094-24638eff58bb?w=160&auto=format&fit=crop&q=80',
+    logoUrl: 'https://cdn-icons-png.flaticon.com/512/1055/1055666.png',
     websiteUrl: 'https://www.photoroom.com',
     downloadUrl: 'https://play.google.com/store/apps/details?id=com.photoroom.app',
     platforms: ['Web', 'Android', 'iOS'],
@@ -723,7 +723,7 @@ export const DEFAULT_APPS: AppItem[] = [
       'Direct developer API integration'
     ],
     category: 'other-tools',
-    logoUrl: 'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=160&auto=format&fit=crop&q=80',
+    logoUrl: 'https://cdn-icons-png.flaticon.com/512/2919/2919592.png',
     websiteUrl: 'https://www.erase.bg',
     downloadUrl: 'https://play.google.com/store/apps/details?id=com.pixelbin.erasebg',
     platforms: ['Web', 'Android', 'iOS'],
@@ -749,7 +749,7 @@ export const DEFAULT_APPS: AppItem[] = [
       'High-quality output without reducing image resolution'
     ],
     category: 'photo-editing',
-    logoUrl: 'https://images.unsplash.com/photo-1626785774573-4b799315345d?w=160&auto=format&fit=crop&q=80',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/a/af/Adobe_Photoshop_CC_icon.svg',
     websiteUrl: 'https://www.adobe.com/express/feature/image/remove-background',
     downloadUrl: 'https://play.google.com/store/apps/details?id=com.adobe.spark.post',
     platforms: ['Web', 'Android', 'iOS'],
@@ -775,7 +775,7 @@ export const DEFAULT_APPS: AppItem[] = [
       'Sign PDFs and protect documents with encryption'
     ],
     category: 'other-tools',
-    logoUrl: 'https://images.unsplash.com/photo-1568667256549-094345857637?w=160&auto=format&fit=crop&q=80',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/9/90/ILovePDF_logo.svg',
     websiteUrl: 'https://www.ilovepdf.com',
     downloadUrl: 'https://play.google.com/store/apps/details?id=com.ilovepdf.www',
     platforms: ['Web', 'Android', 'iOS', 'Windows', 'macOS'],
@@ -801,7 +801,7 @@ export const DEFAULT_APPS: AppItem[] = [
       'Free public API for security researchers'
     ],
     category: 'other-tools',
-    logoUrl: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?w=160&auto=format&fit=crop&q=80',
+    logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/b/b7/VirusTotal_logo.svg',
     websiteUrl: 'https://www.virustotal.com',
     platforms: ['Web'],
     pricing: 'Free',

@@ -17,6 +17,7 @@ import {
 } from 'lucide-react';
 import { useAppDirectory } from '../context/AppContext';
 import { CATEGORIES } from '../data/defaultApps';
+import { SMARTLINK_URL } from './AdSlot';
 import { AppItem } from '../types';
 
 export const AppDetailModal: React.FC = () => {
@@ -107,16 +108,16 @@ export const AppDetailModal: React.FC = () => {
           
           {/* Main Info Hero */}
           <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-            <div className="w-20 h-20 rounded-3xl overflow-hidden bg-slate-100 border border-slate-200 shadow-md flex-shrink-0">
+            <div className="w-20 h-20 rounded-3xl overflow-hidden bg-white p-2.5 border border-slate-200 shadow-sm flex-shrink-0 flex items-center justify-center">
               {selectedApp.logoUrl && !logoError ? (
                 <img
                   src={selectedApp.logoUrl}
                   alt={selectedApp.name}
                   onError={() => setLogoError(true)}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               ) : (
-                <div className="w-full h-full bg-gradient-to-tr from-indigo-600 to-purple-600 text-white flex items-center justify-center font-bold text-2xl">
+                <div className="w-full h-full bg-gradient-to-tr from-indigo-600 to-purple-600 rounded-2xl text-white flex items-center justify-center font-bold text-2xl">
                   {selectedApp.name.charAt(0)}
                 </div>
               )}
@@ -182,6 +183,16 @@ export const AppDetailModal: React.FC = () => {
                   <span>Download Page</span>
                 </a>
               )}
+
+              <a
+                href={SMARTLINK_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex-1 sm:flex-none inline-flex items-center justify-center gap-1.5 px-3.5 py-2.5 bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-300 text-xs font-bold rounded-xl transition-all"
+                title="Special Deals & Recommended Software"
+              >
+                <span>🔥 Special Deal</span>
+              </a>
             </div>
           </div>
 

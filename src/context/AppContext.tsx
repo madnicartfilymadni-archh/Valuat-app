@@ -9,7 +9,7 @@ export const DEFAULT_OFFICIAL_APK: OfficialApkConfig = {
   description: 'Download the verified official AppVault Android application. Browse 50+ curated online tools, save favorite utilities offline, and receive instant alerts when trending AI tools launch.',
   version: 'v2.4.2',
   fileSize: '16.8 MB',
-  logoUrl: 'https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=160&auto=format&fit=crop&q=80',
+  logoUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d7/Android_robot.svg',
   downloadUrl: 'https://github.com/appvault/releases/download/v2.4.2/appvault-official.apk',
   fileName: 'appvault-official-v2.4.2.apk',
   updatedAt: '2024-05-28',
@@ -69,9 +69,9 @@ interface AppContextType {
   importApps: (importedList: AppItem[]) => boolean;
 }
 
-const STORAGE_KEY_APPS = 'appvault_apps_v2';
+const STORAGE_KEY_APPS = 'appvault_apps_v3';
 const STORAGE_KEY_BOOKMARKS = 'appvault_bookmarks_v1';
-const STORAGE_KEY_OFFICIAL_APK = 'appvault_official_apk_v1';
+const STORAGE_KEY_OFFICIAL_APK = 'appvault_official_apk_v2';
 const STORAGE_KEY_ADMIN_PASS = 'appvault_admin_pass_v2';
 
 const AppContext = createContext<AppContextType | undefined>(undefined);
@@ -83,13 +83,15 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       if (saved) {
         const parsed = JSON.parse(saved);
         if (Array.isArray(parsed) && parsed.length > 0) {
-          // Merge any missing default apps like moviebox
-          const existingIds = new Set(parsed.map((a: AppItem) => a.id));
-          const missingDefaults = DEFAULT_APPS.filter(d => !existingIds.has(d.id));
-          if (missingDefaults.length > 0) {
-            return [...DEFAULT_APPS];
-          }
-          return parsed;
+          // Merge with latest official logos for standard apps
+          const defaultMap = new Map(DEFAULT_APPS.map(a => [a.id, a]));
+          return parsed.map((item: AppItem) => {
+            const def = defaultMap.get(item.id);
+            if (def && (item.logoUrl.includes('unsplash.com') || !item.logoUrl)) {
+              return { ...item, logoUrl: def.logoUrl };
+            }
+            return item;
+          });
         }
       }
     } catch (e) {

@@ -157,7 +157,7 @@ export const AppGrid: React.FC = () => {
               {/* The App Card */}
               <AppCard app={app} />
 
-              {/* In-feed Adsterra Native Ad Slot after item 3 */}
+              {/* In-feed Adsterra Native Banner (ID: 31492831) after item 3 */}
               {index === 2 && (
                 <AdSlot 
                   id="adsterra-native-feed-1" 
@@ -166,11 +166,11 @@ export const AppGrid: React.FC = () => {
                 />
               )}
 
-              {/* Second Adsterra Slot after item 9 */}
-              {index === 8 && (
+              {/* Adsterra Smartlink Sponsored Card (ID: 31492832) after item 7 */}
+              {index === 6 && (
                 <AdSlot 
-                  id="adsterra-native-feed-2" 
-                  format="native-card" 
+                  id="adsterra-smartlink-feed" 
+                  format="smartlink-card" 
                   className="h-full"
                 />
               )}
@@ -179,11 +179,11 @@ export const AppGrid: React.FC = () => {
         })}
       </div>
 
-      {/* Middle Banner Ad Placement Area */}
+      {/* Middle/Bottom Adsterra 320x50 Banner (ID: 31492834) */}
       <AdSlot 
         id="adsterra-banner-middle" 
-        format="banner-728x90" 
-        className="mt-10" 
+        format="banner-320x50" 
+        className="mt-8" 
       />
 
     </div>
