@@ -125,9 +125,9 @@ export const AppDetailModal: React.FC = () => {
 
             <div className="flex-1">
               <div className="flex items-center gap-2 flex-wrap">
-                <h2 className="text-2xl font-black text-slate-900">
+                <h1 className="text-2xl font-black text-slate-900">
                   {selectedApp.name}
-                </h2>
+                </h1>
                 <span className="inline-flex items-center gap-1 text-xs font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-2 py-0.5 rounded-md">
                   <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
                   Verified Official

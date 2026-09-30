@@ -1,6 +1,6 @@
 {
   "name": "AppVault - Apps & Tools Directory",
-  "description": "Discover top rated apps, AI tools, video & photo editors, productivity software and official download links.",
+  "description": "Discover useful apps, AI tools, online tools, Android apps, productivity tools, and daily utilities in one place.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

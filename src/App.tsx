@@ -10,6 +10,7 @@ import { AppDetailModal } from './components/AppDetailModal';
 import { BackgroundRemoverModal } from './components/BackgroundRemoverModal';
 import { AdminPanel } from './components/AdminPanel';
 import { Footer } from './components/Footer';
+import { SeoManager } from './components/SeoManager';
 
 const AppContent: React.FC = () => {
   const { apps, setSelectedApp, setSelectedCategory, isBgRemoverOpen, setIsBgRemoverOpen } = useAppDirectory();
@@ -43,6 +44,9 @@ const AppContent: React.FC = () => {
 
   return (
     <div className="min-h-screen flex flex-col bg-slate-50 text-slate-900 selection:bg-indigo-500 selection:text-white">
+      {/* Dynamic SEO & OpenGraph Synchronizer */}
+      <SeoManager />
+
       {/* Top Navbar */}
       <Navbar />
 
